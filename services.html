@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="bn" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>সার্ভিসসমূহ | প্রিন্ট সলিউশন</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Hind Siliguri', sans-serif; }
+        .dropdown:hover .dropdown-menu { display: block; }
+        .whatsapp-btn {
+            @apply transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:-translate-y-1;
+        }
+        .service-card {
+            @apply transition-all duration-500 hover:shadow-2xl hover:-translate-y-2;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- টপ বার -->
+    <div class="bg-gradient-to-r from-blue-900 to-blue-700 text-white text-sm py-2 px-4 text-center font-medium">
+        অফিস এবং ইভেন্ট প্রিন্টিংয়ে বিশেষ ছাড় পেতে আজই যোগাযোগ করুন!
+    </div>
+
+    <!-- ন্যাভিগেশন বার (ল্যান্ডিং পেজ থেকে কপি, লিঙ্ক চেঞ্জ) -->
+    <nav class="bg-white border-b sticky top-0 z-50 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center space-x-2">
+                    <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"></path></svg>
+                    </div>
+                    <div class="leading-tight">
+                        <span class="text-2xl font-bold text-blue-900">প্রিন্ট</span><span class="text-2xl font-bold text-orange-500">সলিউশন</span>
+                        <p class="text-[10px] text-gray-500 uppercase font-bold tracking-widest">Premium Quality Printing</p>
+                    </div>
+                </div>
+                <div class="hidden lg:flex items-center space-x-6 text-[15px] font-semibold text-gray-700">
+                    <a href="index.html" class="text-blue-600">হোম</a>
+                    <a href="services.html" class="hover:text-blue-600 transition">সার্ভিসসমূহ</a>
+                    <a href="corporate-gifts.html" class="hover:text-blue-600 transition">কর্পোরেট গিফট</a>
+                    <a href="pricing.html" class="hover:text-blue-600 transition">প্রাইসিং</a>
+                    <a href="portfolio.html" class="hover:text-blue-600 transition">আমাদের কাজ</a>
+                    <a href="https://wa.me/8801715738598?text=হ্যালো,%20প্রিন্ট%20সলিউশন%20থেকে%20অর্ডার%20করতে%20চাই" target="_blank" class="bg-blue-600 text-white px-6 py-2 rounded-full font-bold whatsapp-btn inline-block">অর্ডার করুন</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- মেইন কনটেন্ট (এখানে সার্ভিস ডিটেলস অ্যাড করুন) -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h3 class="text-3xl md:text-4xl font-bold text-gray-900">আমাদের সার্ভিসসমূহ</h3>
+                <div class="w-20 h-1.5 bg-orange-500 mx-auto mt-4 rounded-full"></div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- এখানে আরও ডিটেল কার্ড অ্যাড করুন, ল্যান্ডিং পেজের মতো -->
+                <div class="bg-white border-2 border-gray-50 rounded-2xl p-8 service-card group">
+                    <h4 class="text-xl font-bold mb-3">অফিসিয়াল স্টেশনারি</h4>
+                    <p class="text-gray-500 mb-6">ভিজিটিং কার্ড, লেটারহেড, খাম ইত্যাদি। বিস্তারিত ফিচার: প্রিমিয়াম পেপার, কাস্টম ডিজাইন।</p>
+                    <a href="https://wa.me/8801715738598?text=হ্যালো,%20অফিসিয়াল%20স্টেশনারি%20অর্ডার%20চাই" target="_blank" class="text-blue-600 font-bold flex items-center whatsapp-btn inline-block">অর্ডার দিন <span class="ml-2">→</span></a>
+                </div>
+                <!-- অন্যান্য কার্ড অ্যাড করুন -->
+            </div>
+        </div>
+    </section>
+
+    <!-- স্ট্যাটস সেকশন (যদি চান, কপি করুন) -->
+    <!-- ... -->
+
+    <!-- ফুটার (ল্যান্ডিং পেজ থেকে কপি, লিঙ্ক চেঞ্জ) -->
+    <footer class="bg-gray-50 pt-16 pb-8 border-t">
+        <!-- ফুল ফুটার কোড কপি করুন, লিঙ্কগুলো আপডেট করুন যেমন <a href="index.html">হোম</a> -->
+        <!-- ... -->
+    </footer>
+</body>
+</html>
